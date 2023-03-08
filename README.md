@@ -1,6 +1,12 @@
 # King County, WA Home Sale Price Predictor and Recommendations to Maximize Home Value
 **Created by Lucas Fishbein**
 
+# Getting Started with this Repository
+
+To Run this code, download the following data files from the link below and place both files in a folder you will create named "/data" (case-sensitive) inside this repository.
+
+Download: King County Home Sale 2021-2022 From: https://github.com/LayFish21/dsc-phase-2-project-v2-5/tree/main/data
+
 # Overview and Business Problem
 
 
@@ -88,7 +94,7 @@ The square footage inside the house and square footage of the garage features we
 * The average error of this model is about half of a standard deviation in price, or about 200,000 dollars
 
 
-### Interpreting Model Coefficents
+### Interpreting Model Predictors
 
 #### GreenBelt:
 >Being adjacent to a greenbelt provided an increase in overall value of about $126,000.
@@ -97,10 +103,10 @@ The square footage inside the house and square footage of the garage features we
 >The homes having reported traffic noise or some other nuisance was assocaited with an overall increase of $36,000
 
 #### View:
->Having a view overall increased the value of a home but the quality of the view did not relate to home price increase in the most intuiative way. A fair view, the lowest quality of view, increased the value of a home by about \\$106,000 compared with no view, which was greater than the increase for an average view. Excellent views still added the most value by a small margine when compared with no view at a \\$108,000 increase.
+>Having a view overall increased the value of a home but the quality of the view did not relate to home price increase in the most intuiative way. A fair view, the lowest quality of view, increased the value of a home by about \$106,000 compared with no view, which was greater than the increase for an average view. Excellent views still added the most value by a small margine when compared with no view at a $108,000 increase.
 
 ####  Grade:
-> The value associated with an increase in construction grade basically acted as expected with higher grades fetching higher prices. The breakdown of price increases for each grade when compared with a Fair graded house was \\$52,000 for an Average grade, \\$175,000 for Good, \\$381,000 for Better, \\$585,000 for Very Good, \\$565,000 for Luxury amd \\$757,000 for Mansion grade construction 
+> The value associated with an increase in construction grade basically acted as expected with higher grades fetching higher prices. The breakdown of price increases for each grade when compared with a Fair graded house was \$52,000 for an Average grade, \$175,000 for Good, \$381,000 for Better, \$585,000 for Very Good, \$565,000 for Luxury amd \$757,000 for Mansion grade construction 
 
 #### Sqft of living space:
 > sqft_living was log transformed and therefore the interpretation of this of metric is that a 1% increase in sqft inside the home is associated with an increase in value of 480,000/100 or about $4,800 in home value  
@@ -109,10 +115,10 @@ The square footage inside the house and square footage of the garage features we
 >sqft_garage was log transformed and therefore the interpretation of this of metric is that a 1% increase in sqft of the garage is associated with a decrease in value of 12,000/100 or about $1,200 in home value  
 
 #### Condition:
->As expected as the condition of a home increases, so does the value. An increase from a condition of poor to average resulted in a \\$60,000, poor to good was \\$103,000, and poor to excellent was $155,000
+>As expected as the condition of a home increases, so does the value. An increase from a condition of poor to average resulted in a \\$60,000, poor to good was \$103,000, and poor to excellent was $155,000
 
 #### Month sold:
-> When comparing to a sale in janurary, the months that are associated with the highest increase in sales value are March, April and May with an associated increase of \\$61,000, \\$77,000 and \\$ 95,000 respectively
+> When comparing to a sale in janurary, the months that are associated with the highest increase in sales value are March, April and May with an associated increase of \$61,000, \$77,000 and \$ 95,000 respectively
 
 
 # Conclusions and Recommendations
@@ -120,7 +126,7 @@ The square footage inside the house and square footage of the garage features we
 
 ### Choosing locations to Build Upon
 
-When looking for land we are looking for the cheapest property that will provide great home value, for this we recommend searching for a "Fair" view but no better, next to a greenbelt as these will raise the value of a home on average about \\$106,000 and \\$126,000 respectively.
+When looking for land we are looking for the cheapest property that will provide great home value, for this we recommend searching for a "Fair" view but no better, next to a greenbelt as these will raise the value of a home on average about \$106,000 and \$126,000 respectively.
 
 ### Home Construction
 
@@ -132,4 +138,14 @@ When placing the home up for sale we recommend you spend a little extra to make 
 
 We recommend trying to sell homes in the months of April or May to maximize the home sale price, choosing these months could net you around $80,000 more dollars when compared to selling the same house in another month.
 
+# For More Information
+See the full analysis in the [Jupyter Notebook](https://github.com/LayFish21/KC_Housing_Price_Prediction/blob/main/KC_Housing_Price_Predictor.ipynb) 
 
+For additional info, contact Lucas Fishbein at FishbeinLucas@gmail.com
+
+# Repository Structure
+├── .gitignore
+├── CONTRIBUTING.md
+├── KC_Housing_Price_Prediction.ipynb
+├── LICENSE.md
+└── README.md
