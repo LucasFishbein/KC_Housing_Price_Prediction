@@ -148,9 +148,11 @@ See the full analysis in the [Jupyter Notebook](https://github.com/LayFish21/KC_
 
 For additional info, contact Lucas Fishbein at FishbeinLucas@gmail.com
 
-# Repository Structure
+## Repository Structure
+'''
 ├── .gitignore
 ├── CONTRIBUTING.md
 ├── KC_Housing_Price_Prediction.ipynb
 ├── LICENSE.md
 └── README.md
+'''
