@@ -1,6 +1,14 @@
 # King County, WA Home Sale Price Predictor and Recommendations to Maximize Home Value
 **Created by Lucas Fishbein**
 
+![1402318004538962559_1402318004538962559](https://user-images.githubusercontent.com/117129342/223840368-bb6874e5-7ee8-42ea-8118-63ecc904ee32.jpg)
+[Photo Source: customers.microsoft.com](https://customers.microsoft.com/en-CA/story/1402316179789676841-king-county-wa-government-azure) 
+
+![istockphoto-1171946250-612x612](https://user-images.githubusercontent.com/117129342/223840005-89ba4712-5409-4d23-a58c-80bd294b445b.jpg) 
+[Photo Source: Istockphoto.com](istockphoto.com/illustrations/house-construction-frame)
+
+
+
 # Getting Started with this Repository
 
 To Run this code, download the following data files from the link below and place both files in a folder you will create named "/data" (case-sensitive) inside this repository.
