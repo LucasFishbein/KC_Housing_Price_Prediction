@@ -52,8 +52,12 @@ Aim to sell homes in the months of April or May to maximize the home sale price.
 
 # Database Understanding
 
-A database of 30,155 home sales within King County, WA during the years 2021-2022 has been sourced from [KingCounty.gov](https://kingcounty.gov/) to build this predictive model, this data was choosen as it is the most recent and relevant data available within the stakeholder's county of interest. There are 25 home features included in this data set, with "price being treated as the target variable. The definition of each of these features can be found at [King County Glossary](https://info.kingcounty.gov/assessor/esales/Glossary.aspx?type=r).
+A database of 30,155 home sales within King County, WA during the years 2021-2022 has been sourced from [King County Assessor Data Download](https://info.kingcounty.gov/assessor/DataDownload/default.aspx) to build this predictive model, this data was choosen as it is the most recent and relevant data available within the stakeholder's area of interest. 
 
+The `address`, `lat`, and `long` fields have been retrieved using a third-party [geocoding API](https://docs.mapbox.com/api/search/geocoding/). 
+to build this predictive model, this data was choosen as it is the most recent and relevant data available within the stakeholder's county of interest.
+
+There are 25 home features included in this data set, with "price" being treated as the target variable. The definition of each of these features can be found at [King County Glossary](https://info.kingcounty.gov/assessor/esales/Glossary.aspx?type=r).
 
 # Data Cleaning and Preparation
 
@@ -110,8 +114,12 @@ The square footage inside the house and square footage of the garage features we
 #### View:
 >Having a view overall increased the value of a home but the quality of the view did not relate to home price increase in the most intuiative way. A fair view, the lowest quality of view, increased the value of a home by about \$106,000 compared with no view, which was greater than the increase for an average view. Excellent views still added the most value by a small margine when compared with no view at a $108,000 increase.
 
-####  Grade:
+####  Construction Grade:
 > The value associated with an increase in construction grade basically acted as expected with higher grades fetching higher prices. The breakdown of price increases for each grade when compared with a Fair graded house was \$52,000 for an Average grade, \$175,000 for Good, \$381,000 for Better, \$585,000 for Very Good, \$565,000 for Luxury amd \$757,000 for Mansion grade construction 
+
+#### Number of Bathrooms:
+> For each additional bathroom added to a house it will add about $28,000 in value to the home.
+
 
 #### Sqft of living space:
 > sqft_living was log transformed and therefore the interpretation of this of metric is that a 1% increase in sqft inside the home is associated with an increase in value of 480,000/100 or about $4,800 in home value  
@@ -149,10 +157,11 @@ See the full analysis in the [Jupyter Notebook](https://github.com/LayFish21/KC_
 For additional info, contact Lucas Fishbein at FishbeinLucas@gmail.com
 
 ## Repository Structure
-'''
+
+```
 ├── .gitignore
 ├── CONTRIBUTING.md
 ├── KC_Housing_Price_Prediction.ipynb
 ├── LICENSE.md
 └── README.md
-'''
+```
